@@ -16,11 +16,9 @@
 import sys
 import os
 import shlex
-import sphinxjp.themes.basicstrap
+import sphinx_bootstrap_theme
 
 #alabaster_path = alabaster.get_path()
-bpath = sphinxjp.themes.basicstrap.get_path()
-
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -41,8 +39,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.graphviz',
-    'sphinx.ext.todo',
-    'sphinxjp.themes.basicstrap',
+    'sphinx.ext.todo'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -119,10 +116,10 @@ todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
-html_theme_path = [bpath]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'basicstrap'
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
