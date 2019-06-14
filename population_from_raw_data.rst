@@ -36,7 +36,7 @@ mating.
 Genotype Data
 =============
 
-The genotype data is in a file called ``genotype_matrix.txt``. There are 44445
+The genotype data is in a file called ``example_genotype_matrix.txt``. There are 44445
 loci and 105 individuals. We are making use of the very convenient
 :mod:`pandas` :func:`read_csv` function. However, the ``pandas.DataFrame``
 is immediately converted into a ``numpy.array``.
