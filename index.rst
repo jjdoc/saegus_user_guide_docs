@@ -20,5 +20,4 @@ infrastructure of :py:mod:`simuPOP`.
    collecting_and_storing_data.rst
    integrated_example_multiple_generations_and_data_storage.rst
    association_mapping_using_tassel.rst
-   notes_on_visualization.rst
 
